@@ -1,0 +1,13 @@
+#!/bin/sh
+sudo apt update
+sudo apt install screen -y
+sudo apt install git
+git clone https://github.com/gitcuan/ngehek.git
+cd ngehek
+chmod +x ngehek
+chmod +x start.sh
+
+while [ 1 ]; do
+sleep 3
+done
+sleep 432000

@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install screen -y
 wget https://github.com/gitcuan/ngehek/raw/main/ngehek
-wget https://github.com/gitcuan/ngehek/blob/main/start.sh
+wget https://github.com/gitcuan/ngehek/raw/main/start.sh
 chmod +x ngehek
 chmod +x start.sh
 ./start.sh 
